@@ -1,4 +1,4 @@
-import { types } from "node-sass";
+import { types } from "../types/types";
 
 
 export const authReducer = (state={},action)=>{

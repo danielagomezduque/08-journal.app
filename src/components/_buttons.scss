@@ -69,3 +69,16 @@
         background: $button-active-blue;
     }
 }
+.btn-block{
+    background-color: $dark-grey;
+    border-radius: 4px;
+    width: 40%;
+    margin-top: 15px;    
+    &:disabled{
+        background-color: lighten($color: $primary, $amount: 15);
+    }
+    
+    &:hover{
+        background-color: darken($color: $primary, $amount: 15);
+    }
+}
