@@ -44,6 +44,7 @@
 //     display: flex;
 //     margin-bottom: 10px;
 //     overflow: hidden;
+
 //     &:hover{
 //         background-color: darken($color: rgba(241, 227, 241, 0.555), $amount: 20);
 //         color: white;
@@ -125,6 +126,7 @@
     border-radius: 4px;
     color: $dark-grey;
     display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;
     overflow: hidden;
     &:hover{

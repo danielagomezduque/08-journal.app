@@ -82,3 +82,12 @@
         background-color: darken($color: $primary, $amount: 15);
     }
 }
+
+.btn-danger{
+    background-color: rgba(180, 11, 11, 0.719);
+    transition: background-color .3s ease;
+    &:hover{
+        background-color: darken($color: rgba(180, 11, 11, 0.719), $amount: 10);
+    }
+
+}
